@@ -18,7 +18,7 @@ def get_models(model_name : ModelName):
         return {"model_name": model_name,
             "message":"Deep Learning FTW!"
         }
-    if model_name.value == "lenet":
+    if model_name.value == "resnet":
         return {"model_name":model_name.value,
             "message":"LeCNN all the images"
         }
